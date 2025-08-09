@@ -66,7 +66,7 @@ plt.show()
 
 
 
-# OUTPUT
+# OUTPUT for old csv
 # Highly correlated features to drop (46):
 # ['Goals + Assists', 'Non-Penalty Goals', 'Penalty Kicks Attempted', 'xG: Expected Goals', 'npxG: Non-Penalty xG', 'npxG + xAG', 'Shots Total', 'Shots on Target', 'Non-Penalty Goals - npxG', 'Passes Attempted', 'Total Passing Distance', 'Progressive Passing Distance', 'Passes Completed (Short)', 'Passes Attempted (Short)', 'Passes Completed (Medium)', 'Passes Attempted (Medium)', 'Passes Attempted (Long)', 'xA: Expected Assists', 'Key Passes', 'Passes into Final Third', 'Live-ball Passes', 'Throw-ins Taken', 'Inswinging Corner Kicks', 'Outswinging Corner Kicks', 'Shot-Creating Actions', 'SCA (Live-ball Pass)', 'SCA (Dead-ball Pass)', 'GCA (Live-ball Pass)', 'Tackles Won', 'Dribblers Tackled', 'Dribbles Challenged', 'Challenges Lost', 'Tkl+Int', 'Touches', 'Touches (Def Pen)', 'Touches (Def 3rd)', 'Touches (Mid 3rd)', 'Touches (Att 3rd)', 'Touches (Att Pen)', 'Touches (Live-Ball)', 'Successful Take-Ons', 'Times Tackled During Take-On', 'Carries', 'Progressive Carrying Distance', 'Carries into Final Third', 'Passes Received']
 # Original features: 108
@@ -94,3 +94,40 @@ plt.show()
 # 1                     Assists    0.015969
 # 8      Progressive Passes Rec    0.015662
 # 11      Average Shot Distance    0.014061
+
+
+
+
+
+
+
+
+
+# OUTPUT for new CSV
+# Highly correlated features to drop (47):
+# ['Goals + Assists', 'Non-Penalty Goals', 'Penalty Kicks Attempted', 'xG: Expected Goals', 'npxG: Non-Penalty xG', 'npxG + xAG', 'Shots Total', 'Shots on Target', 'Non-Penalty Goals - npxG', 'Passes Attempted', 'Total Passing Distance', 'Progressive Passing Distance', 'Passes Completed (Short)', 'Passes Attempted (Short)', 'Passes Completed (Medium)', 'Passes Attempted (Medium)', 'Passes Attempted (Long)', 'xA: Expected Assists', 'Key Passes', 'Passes into Final Third', 'Live-ball Passes', 'Throw-ins Taken', 'Inswinging Corner Kicks', 'Outswinging Corner Kicks', 'Shot-Creating Actions', 'SCA (Live-ball Pass)', 'SCA (Dead-ball Pass)', 'GCA (Live-ball Pass)', 'Tackles Won', 'Dribblers Tackled', 'Dribbles Challenged', 'Challenges Lost', 'Tkl+Int', 'Touches', 'Touches (Def Pen)', 'Touches (Def 3rd)', 'Touches (Mid 3rd)', 'Touches (Att 3rd)', 'Touches (Att Pen)', 'Touches (Live-Ball)', 'Successful Take-Ons', 'Times Tackled During Take-On', 'Carries', 'Total Carrying Distance', 'Progressive Carrying Distance', 'Carries into Final Third', 'Passes Received']
+# Original features: 109
+# Reduced features: 62
+
+# Top 20 Important Features:
+#                       Feature  Importance
+# 16           Passes Completed    0.079249
+# 33      Goal-Creating Actions    0.054730
+# 1                       Goals    0.046236
+# 0                         age    0.034595
+# 43                     Blocks    0.031726
+# 49  Carries into Penalty Area    0.031619
+# 17    Passes Completed (Long)    0.026053
+# 48         Take-Ons Attempted    0.025902
+# 22              Through Balls    0.024188
+# 12      Average Shot Distance    0.023953
+# 20           Dead-ball Passes    0.023282
+# 27             Passes Offside    0.020227
+# 8          Progressive Passes    0.020016
+# 9      Progressive Passes Rec    0.018297
+# 54                Fouls Drawn    0.018212
+# 7         Progressive Carries    0.017138
+# 42          Tackles (Att 3rd)    0.016576
+# 47                     Errors    0.016550
+# 50                Miscontrols    0.016525
+# 59            Ball Recoveries    0.016260
